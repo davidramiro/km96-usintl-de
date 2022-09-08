@@ -1,7 +1,7 @@
 # QMK Keymap for ANSI with shortcuts for the German language
 
 This keymap provides an easy way to type German umlauts and eszett on the US-International keyboard layout while also resurrecting its dead keys.
-It was made for the Melody96/YMD96 keyboards.
+It was made for the Melody96/YMD96 keyboards. This branch is to be used for Keychron Q1 V2 Knob keyboards.
 
 
 ```
@@ -51,8 +51,9 @@ This QMK layout is still a work in process. I have yet to reach >100 WPM on it l
 
 ## Installation
 ```
-cd qmk_firmware/keyboards/ymdk/melody96/keymaps
+cd qmk_firmware/keyboards/keychron/q1/rev_0101/keymaps
 git clone https://github.com/davidramiro/km96-usintl-de.git
+git checkout keychron-q1v2-knob
 cd ~/qmk_firmware
-make ymdk/melody96:km96-usintl-de:flash
+make keychron/q1/rev_0101:km96-usintl-de:flash
 ```
