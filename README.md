@@ -51,7 +51,7 @@ This QMK layout is still a work in process. I have yet to reach >100 WPM on it l
 
 ## Installation
 ```
-cd qmk_firmware/keyboards/melody96/keymaps
+cd qmk_firmware/keyboards/ymdk/melody96/keymaps
 git clone https://github.com/davidramiro/km96-usintl-de.git
 cd ~/qmk_firmware
 make melody96:km96-usintl-de:flash
